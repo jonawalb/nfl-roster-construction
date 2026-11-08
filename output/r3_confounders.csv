@@ -1,0 +1,19 @@
+outcome,spec,b,se,p,n,r2
+win_pct,baseline,0.5369,0.1021,0.0,416,0.1182
+win_pct,+ lagged win% & net EPA,0.3187,0.1171,0.0065,384,0.1903
+win_pct,+ roster churn (n players),0.3946,0.1093,0.0003,416,0.2036
+win_pct,+ homegrown QB & QB age,0.4341,0.1117,0.0001,416,0.1382
+win_pct,+ QB fixed effects,0.3182,0.1476,0.0311,416,0.5078
+win_pct,+ head-coach fixed effects,0.2175,0.18,0.227,416,0.4782
+win_pct,+ coach tenure & change,0.4212,0.1233,0.0006,416,0.1343
+win_pct,+ team FE + coach FE,0.0545,0.2444,0.8234,416,0.5529
+win_pct,all controls (no FE),0.0651,0.1124,0.5625,384,0.3047
+net_epa,baseline,0.3837,0.0631,0.0,416,0.1599
+net_epa,+ lagged win% & net EPA,0.2712,0.0702,0.0001,384,0.2251
+net_epa,+ roster churn (n players),0.3072,0.0671,0.0,416,0.2345
+net_epa,+ homegrown QB & QB age,0.3402,0.0718,0.0,416,0.1712
+net_epa,+ QB fixed effects,0.309,0.0817,0.0002,416,0.5344
+net_epa,+ head-coach fixed effects,0.243,0.11,0.0272,416,0.4712
+net_epa,+ coach tenure & change,0.328,0.0706,0.0,416,0.1734
+net_epa,+ team FE + coach FE,0.1696,0.1609,0.2917,416,0.5396
+net_epa,all controls (no FE),0.1457,0.0668,0.0292,384,0.315

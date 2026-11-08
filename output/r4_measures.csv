@@ -1,0 +1,29 @@
+outcome,measure,b,se,p,n,b_per_sd
+win_pct,homegrown share (baseline),0.5369,0.1021,0.0,416,0.0562
+win_pct,drafted only,0.6124,0.1154,0.0,416,0.0586
+win_pct,UDFA only,0.0727,0.2058,0.724,416,0.0036
+win_pct,continuity,0.5865,0.102,0.0,416,0.0615
+win_pct,tenure (yrs),0.1136,0.0159,0.0,416,0.0687
+win_pct,homegrown excl. QB,0.4755,0.0989,0.0,416,0.0518
+win_pct,homegrown offense,0.379,0.0796,0.0,416,0.051
+win_pct,homegrown defense,0.2803,0.0821,0.0006,416,0.0354
+win_pct,horse race: homegrown,0.2626,0.1603,0.1014,416,
+win_pct,horse race: continuity,0.4205,0.1583,0.0079,416,
+win_pct,subsample 2013-2019,0.5025,0.1279,0.0001,224,
+win_pct,subsample 2020-2025 (17-game era from 2021),0.5834,0.1301,0.0,192,
+win_pct,subsample cap coverage >= 85%,0.3374,0.1282,0.0085,183,
+win_pct,"acquired-cap share, cap coverage >= 85%",-0.2503,0.0866,0.0038,183,
+net_epa,homegrown share (baseline),0.3837,0.0631,0.0,416,0.0402
+net_epa,drafted only,0.4027,0.0719,0.0,416,0.0385
+net_epa,UDFA only,0.1984,0.1258,0.1148,416,0.0098
+net_epa,continuity,0.4386,0.0593,0.0,416,0.046
+net_epa,tenure (yrs),0.0799,0.01,0.0,416,0.0483
+net_epa,homegrown excl. QB,0.3478,0.0615,0.0,416,0.0379
+net_epa,homegrown offense,0.2343,0.0507,0.0,416,0.0316
+net_epa,homegrown defense,0.2441,0.0522,0.0,416,0.0308
+net_epa,horse race: homegrown,0.1662,0.0888,0.0614,416,
+net_epa,horse race: continuity,0.3336,0.0846,0.0001,416,
+net_epa,subsample 2013-2019,0.3246,0.0797,0.0,224,
+net_epa,subsample 2020-2025 (17-game era from 2021),0.464,0.0825,0.0,192,
+net_epa,subsample cap coverage >= 85%,0.2506,0.0765,0.0011,183,
+net_epa,"acquired-cap share, cap coverage >= 85%",-0.1584,0.05,0.0015,183,

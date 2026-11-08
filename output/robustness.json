@@ -1,0 +1,880 @@
+{
+ "baseline_reproduced": {
+  "win_pct": {
+   "between_rerun": 0.5368618244162642,
+   "between_main": 0.5368618244162642,
+   "within_rerun": 0.21339544232895832,
+   "within_main": 0.21339544232895832
+  },
+  "net_epa": {
+   "between_rerun": 0.3837379953889871,
+   "between_main": 0.3837379953889871,
+   "within_rerun": 0.2141544341603996,
+   "within_main": 0.2141544341603996
+  }
+ },
+ "n": 416,
+ "coach_missing": 0,
+ "rookie_split_check_max_abs_diff_vs_hg_share": 2.220446049250313e-16,
+ "inference": [
+  {
+   "outcome": "win_pct",
+   "spec": "between",
+   "b": 0.5369,
+   "se": 0.1021,
+   "p": 0.0,
+   "n": 416,
+   "t": 5.2599,
+   "p_wild": 0.0,
+   "p_cl_season": 0.0,
+   "p_twoway": 0.0,
+   "p_perm": 0.0,
+   "p_holm": 0.0,
+   "p_bh": 0.0
+  },
+  {
+   "outcome": "win_pct",
+   "spec": "within",
+   "b": 0.2134,
+   "se": 0.1429,
+   "p": 0.1353,
+   "n": 416,
+   "t": 1.4934,
+   "p_wild": 0.1641,
+   "p_cl_season": 0.0947,
+   "p_twoway": 0.1481,
+   "p_perm": NaN,
+   "p_holm": 0.3282,
+   "p_bh": 0.1823
+  },
+  {
+   "outcome": "pd_pg",
+   "spec": "between",
+   "b": 20.4033,
+   "se": 3.4688,
+   "p": 0.0,
+   "n": 416,
+   "t": 5.882,
+   "p_wild": 0.0,
+   "p_cl_season": 0.0,
+   "p_twoway": 0.0,
+   "p_perm": NaN,
+   "p_holm": 0.0,
+   "p_bh": 0.0
+  },
+  {
+   "outcome": "pd_pg",
+   "spec": "within",
+   "b": 10.0013,
+   "se": 4.7404,
+   "p": 0.0349,
+   "n": 416,
+   "t": 2.1098,
+   "p_wild": 0.0525,
+   "p_cl_season": 0.0023,
+   "p_twoway": 0.0259,
+   "p_perm": NaN,
+   "p_holm": 0.1576,
+   "p_bh": 0.0657
+  },
+  {
+   "outcome": "net_epa",
+   "spec": "between",
+   "b": 0.3837,
+   "se": 0.0631,
+   "p": 0.0,
+   "n": 416,
+   "t": 6.084,
+   "p_wild": 0.0,
+   "p_cl_season": 0.0,
+   "p_twoway": 0.0,
+   "p_perm": 0.0,
+   "p_holm": 0.0,
+   "p_bh": 0.0
+  },
+  {
+   "outcome": "net_epa",
+   "spec": "within",
+   "b": 0.2142,
+   "se": 0.0867,
+   "p": 0.0135,
+   "n": 416,
+   "t": 2.4713,
+   "p_wild": 0.026,
+   "p_cl_season": 0.0007,
+   "p_twoway": 0.0099,
+   "p_perm": NaN,
+   "p_holm": 0.1041,
+   "p_bh": 0.0372
+  },
+  {
+   "outcome": "off_epa",
+   "spec": "between",
+   "b": 0.2651,
+   "se": 0.0456,
+   "p": 0.0,
+   "n": 416,
+   "t": 5.8128,
+   "p_wild": 0.0,
+   "p_cl_season": 0.0,
+   "p_twoway": 0.0,
+   "p_perm": NaN,
+   "p_holm": 0.0,
+   "p_bh": 0.0
+  },
+  {
+   "outcome": "off_epa",
+   "spec": "within",
+   "b": 0.0925,
+   "se": 0.0682,
+   "p": 0.1749,
+   "n": 416,
+   "t": 1.3567,
+   "p_wild": 0.1961,
+   "p_cl_season": 0.0811,
+   "p_twoway": 0.1796,
+   "p_perm": NaN,
+   "p_holm": 0.3282,
+   "p_bh": 0.1961
+  },
+  {
+   "outcome": "def_epa",
+   "spec": "between",
+   "b": -0.1187,
+   "se": 0.0383,
+   "p": 0.002,
+   "n": 416,
+   "t": -3.0955,
+   "p_wild": 0.002,
+   "p_cl_season": 0.0,
+   "p_twoway": 0.0008,
+   "p_perm": NaN,
+   "p_holm": 0.012,
+   "p_bh": 0.004
+  },
+  {
+   "outcome": "def_epa",
+   "spec": "within",
+   "b": -0.1217,
+   "se": 0.045,
+   "p": 0.0069,
+   "n": 416,
+   "t": -2.7014,
+   "p_wild": 0.0095,
+   "p_cl_season": 0.0,
+   "p_twoway": 0.001,
+   "p_perm": NaN,
+   "p_holm": 0.0475,
+   "p_bh": 0.0158
+  }
+ ],
+ "jackknife": {
+  "win_pct_between": {
+   "drop_team_b_min": 0.5011796193899274,
+   "drop_team_b_max": 0.5864022306196619,
+   "drop_team_p_max": 3.3027867181391547e-06,
+   "drop_team_most_influential": "NYJ",
+   "drop_season_b_min": 0.4896280675455297,
+   "drop_season_b_max": 0.5868773694137106,
+   "drop_season_p_max": 3.0707587816454584e-06
+  },
+  "win_pct_within": {
+   "drop_team_b_min": 0.1567823431043383,
+   "drop_team_b_max": 0.2640673775749747,
+   "drop_team_p_max": 0.2657251805668772,
+   "drop_team_most_influential": "TB",
+   "drop_season_b_min": 0.14700183294882582,
+   "drop_season_b_max": 0.2838615348708394,
+   "drop_season_p_max": 0.34291453711121667
+  },
+  "net_epa_between": {
+   "drop_team_b_min": 0.3600466125205848,
+   "drop_team_b_max": 0.4176325551557236,
+   "drop_team_p_max": 5.155766749275262e-08,
+   "drop_team_most_influential": "LV",
+   "drop_season_b_min": 0.36328206138435815,
+   "drop_season_b_max": 0.3999605481847762,
+   "drop_season_p_max": 2.757663286050862e-08
+  },
+  "net_epa_within": {
+   "drop_team_b_min": 0.18072763722658358,
+   "drop_team_b_max": 0.2466434250516813,
+   "drop_team_p_max": 0.034795688523570345,
+   "drop_team_most_influential": "BUF",
+   "drop_season_b_min": 0.1734363708585316,
+   "drop_season_b_max": 0.24390709753355483,
+   "drop_season_p_max": 0.06250742991276836
+  }
+ },
+ "confounders": [
+  {
+   "outcome": "win_pct",
+   "spec": "baseline",
+   "b": 0.5369,
+   "se": 0.1021,
+   "p": 0.0,
+   "n": 416,
+   "r2": 0.1182
+  },
+  {
+   "outcome": "win_pct",
+   "spec": "+ lagged win% & net EPA",
+   "b": 0.3187,
+   "se": 0.1171,
+   "p": 0.0065,
+   "n": 384,
+   "r2": 0.1903
+  },
+  {
+   "outcome": "win_pct",
+   "spec": "+ roster churn (n players)",
+   "b": 0.3946,
+   "se": 0.1093,
+   "p": 0.0003,
+   "n": 416,
+   "r2": 0.2036
+  },
+  {
+   "outcome": "win_pct",
+   "spec": "+ homegrown QB & QB age",
+   "b": 0.4341,
+   "se": 0.1117,
+   "p": 0.0001,
+   "n": 416,
+   "r2": 0.1382
+  },
+  {
+   "outcome": "win_pct",
+   "spec": "+ QB fixed effects",
+   "b": 0.3182,
+   "se": 0.1476,
+   "p": 0.0311,
+   "n": 416,
+   "r2": 0.5078
+  },
+  {
+   "outcome": "win_pct",
+   "spec": "+ head-coach fixed effects",
+   "b": 0.2175,
+   "se": 0.18,
+   "p": 0.227,
+   "n": 416,
+   "r2": 0.4782
+  },
+  {
+   "outcome": "win_pct",
+   "spec": "+ coach tenure & change",
+   "b": 0.4212,
+   "se": 0.1233,
+   "p": 0.0006,
+   "n": 416,
+   "r2": 0.1343
+  },
+  {
+   "outcome": "win_pct",
+   "spec": "+ team FE + coach FE",
+   "b": 0.0545,
+   "se": 0.2444,
+   "p": 0.8234,
+   "n": 416,
+   "r2": 0.5529
+  },
+  {
+   "outcome": "win_pct",
+   "spec": "all controls (no FE)",
+   "b": 0.0651,
+   "se": 0.1124,
+   "p": 0.5625,
+   "n": 384,
+   "r2": 0.3047
+  },
+  {
+   "outcome": "net_epa",
+   "spec": "baseline",
+   "b": 0.3837,
+   "se": 0.0631,
+   "p": 0.0,
+   "n": 416,
+   "r2": 0.1599
+  },
+  {
+   "outcome": "net_epa",
+   "spec": "+ lagged win% & net EPA",
+   "b": 0.2712,
+   "se": 0.0702,
+   "p": 0.0001,
+   "n": 384,
+   "r2": 0.2251
+  },
+  {
+   "outcome": "net_epa",
+   "spec": "+ roster churn (n players)",
+   "b": 0.3072,
+   "se": 0.0671,
+   "p": 0.0,
+   "n": 416,
+   "r2": 0.2345
+  },
+  {
+   "outcome": "net_epa",
+   "spec": "+ homegrown QB & QB age",
+   "b": 0.3402,
+   "se": 0.0718,
+   "p": 0.0,
+   "n": 416,
+   "r2": 0.1712
+  },
+  {
+   "outcome": "net_epa",
+   "spec": "+ QB fixed effects",
+   "b": 0.309,
+   "se": 0.0817,
+   "p": 0.0002,
+   "n": 416,
+   "r2": 0.5344
+  },
+  {
+   "outcome": "net_epa",
+   "spec": "+ head-coach fixed effects",
+   "b": 0.243,
+   "se": 0.11,
+   "p": 0.0272,
+   "n": 416,
+   "r2": 0.4712
+  },
+  {
+   "outcome": "net_epa",
+   "spec": "+ coach tenure & change",
+   "b": 0.328,
+   "se": 0.0706,
+   "p": 0.0,
+   "n": 416,
+   "r2": 0.1734
+  },
+  {
+   "outcome": "net_epa",
+   "spec": "+ team FE + coach FE",
+   "b": 0.1696,
+   "se": 0.1609,
+   "p": 0.2917,
+   "n": 416,
+   "r2": 0.5396
+  },
+  {
+   "outcome": "net_epa",
+   "spec": "all controls (no FE)",
+   "b": 0.1457,
+   "se": 0.0668,
+   "p": 0.0292,
+   "n": 384,
+   "r2": 0.315
+  }
+ ],
+ "rookie_contracts": {
+  "win_pct": {
+   "hg_first_contract": {
+    "b": 0.3788708701131107,
+    "se": 0.16696383761504968,
+    "p": 0.023257429651536772,
+    "n": 416
+   },
+   "hg_second_contract": {
+    "b": 0.6109474165063509,
+    "se": 0.13247234074223388,
+    "p": 3.9903063021701875e-06,
+    "n": 416
+   },
+   "diff_p": 0.28229312621555114,
+   "hg_share_ctrl_all_rookie_snaps": {
+    "b": 0.5847178380160589,
+    "se": 0.11299600081061241,
+    "p": 2.2830524857945286e-07,
+    "n": 416
+   },
+   "all_rookie_snaps": {
+    "b": -0.3036133537651272,
+    "se": 0.20911532452933512,
+    "p": 0.14653098967334643,
+    "n": 416
+   },
+   "within_hg_second_contract": {
+    "b": 0.21651620006476233,
+    "se": 0.15915203312426662,
+    "p": 0.17369190389450617,
+    "n": 416
+   }
+  },
+  "net_epa": {
+   "hg_first_contract": {
+    "b": 0.33733233092668613,
+    "se": 0.09840478135988143,
+    "p": 0.0006080286073951764,
+    "n": 416
+   },
+   "hg_second_contract": {
+    "b": 0.4054986787343547,
+    "se": 0.07766737567928708,
+    "p": 1.7799282705343706e-07,
+    "n": 416
+   },
+   "diff_p": 0.5687635410608947,
+   "hg_share_ctrl_all_rookie_snaps": {
+    "b": 0.4092552855469773,
+    "se": 0.07154478815346821,
+    "p": 1.0635683156393857e-08,
+    "n": 416
+   },
+   "all_rookie_snaps": {
+    "b": -0.16188958212554722,
+    "se": 0.13240317327218082,
+    "p": 0.22144239299962176,
+    "n": 416
+   },
+   "within_hg_second_contract": {
+    "b": 0.21124124694360913,
+    "se": 0.09450973108027604,
+    "p": 0.025409015565891337,
+    "n": 416
+   }
+  },
+  "means": {
+   "sh_hg_rook": 0.4479059061203841,
+   "sh_hg_vet": 0.16801773968044253,
+   "sh_acq_rook": 0.052705817651268014,
+   "sh_rook_all": 0.500611723771652
+  }
+ },
+ "measures": [
+  {
+   "outcome": "win_pct",
+   "measure": "homegrown share (baseline)",
+   "b": 0.5369,
+   "se": 0.1021,
+   "p": 0.0,
+   "n": 416,
+   "b_per_sd": 0.0562
+  },
+  {
+   "outcome": "win_pct",
+   "measure": "drafted only",
+   "b": 0.6124,
+   "se": 0.1154,
+   "p": 0.0,
+   "n": 416,
+   "b_per_sd": 0.0586
+  },
+  {
+   "outcome": "win_pct",
+   "measure": "UDFA only",
+   "b": 0.0727,
+   "se": 0.2058,
+   "p": 0.724,
+   "n": 416,
+   "b_per_sd": 0.0036
+  },
+  {
+   "outcome": "win_pct",
+   "measure": "continuity",
+   "b": 0.5865,
+   "se": 0.102,
+   "p": 0.0,
+   "n": 416,
+   "b_per_sd": 0.0615
+  },
+  {
+   "outcome": "win_pct",
+   "measure": "tenure (yrs)",
+   "b": 0.1136,
+   "se": 0.0159,
+   "p": 0.0,
+   "n": 416,
+   "b_per_sd": 0.0687
+  },
+  {
+   "outcome": "win_pct",
+   "measure": "homegrown excl. QB",
+   "b": 0.4755,
+   "se": 0.0989,
+   "p": 0.0,
+   "n": 416,
+   "b_per_sd": 0.0518
+  },
+  {
+   "outcome": "win_pct",
+   "measure": "homegrown offense",
+   "b": 0.379,
+   "se": 0.0796,
+   "p": 0.0,
+   "n": 416,
+   "b_per_sd": 0.051
+  },
+  {
+   "outcome": "win_pct",
+   "measure": "homegrown defense",
+   "b": 0.2803,
+   "se": 0.0821,
+   "p": 0.0006,
+   "n": 416,
+   "b_per_sd": 0.0354
+  },
+  {
+   "outcome": "win_pct",
+   "measure": "horse race: homegrown",
+   "b": 0.2626,
+   "se": 0.1603,
+   "p": 0.1014,
+   "n": 416,
+   "b_per_sd": NaN
+  },
+  {
+   "outcome": "win_pct",
+   "measure": "horse race: continuity",
+   "b": 0.4205,
+   "se": 0.1583,
+   "p": 0.0079,
+   "n": 416,
+   "b_per_sd": NaN
+  },
+  {
+   "outcome": "win_pct",
+   "measure": "subsample 2013-2019",
+   "b": 0.5025,
+   "se": 0.1279,
+   "p": 0.0001,
+   "n": 224,
+   "b_per_sd": NaN
+  },
+  {
+   "outcome": "win_pct",
+   "measure": "subsample 2020-2025 (17-game era from 2021)",
+   "b": 0.5834,
+   "se": 0.1301,
+   "p": 0.0,
+   "n": 192,
+   "b_per_sd": NaN
+  },
+  {
+   "outcome": "win_pct",
+   "measure": "subsample cap coverage >= 85%",
+   "b": 0.3374,
+   "se": 0.1282,
+   "p": 0.0085,
+   "n": 183,
+   "b_per_sd": NaN
+  },
+  {
+   "outcome": "win_pct",
+   "measure": "acquired-cap share, cap coverage >= 85%",
+   "b": -0.2503,
+   "se": 0.0866,
+   "p": 0.0038,
+   "n": 183,
+   "b_per_sd": NaN
+  },
+  {
+   "outcome": "net_epa",
+   "measure": "homegrown share (baseline)",
+   "b": 0.3837,
+   "se": 0.0631,
+   "p": 0.0,
+   "n": 416,
+   "b_per_sd": 0.0402
+  },
+  {
+   "outcome": "net_epa",
+   "measure": "drafted only",
+   "b": 0.4027,
+   "se": 0.0719,
+   "p": 0.0,
+   "n": 416,
+   "b_per_sd": 0.0385
+  },
+  {
+   "outcome": "net_epa",
+   "measure": "UDFA only",
+   "b": 0.1984,
+   "se": 0.1258,
+   "p": 0.1148,
+   "n": 416,
+   "b_per_sd": 0.0098
+  },
+  {
+   "outcome": "net_epa",
+   "measure": "continuity",
+   "b": 0.4386,
+   "se": 0.0593,
+   "p": 0.0,
+   "n": 416,
+   "b_per_sd": 0.046
+  },
+  {
+   "outcome": "net_epa",
+   "measure": "tenure (yrs)",
+   "b": 0.0799,
+   "se": 0.01,
+   "p": 0.0,
+   "n": 416,
+   "b_per_sd": 0.0483
+  },
+  {
+   "outcome": "net_epa",
+   "measure": "homegrown excl. QB",
+   "b": 0.3478,
+   "se": 0.0615,
+   "p": 0.0,
+   "n": 416,
+   "b_per_sd": 0.0379
+  },
+  {
+   "outcome": "net_epa",
+   "measure": "homegrown offense",
+   "b": 0.2343,
+   "se": 0.0507,
+   "p": 0.0,
+   "n": 416,
+   "b_per_sd": 0.0316
+  },
+  {
+   "outcome": "net_epa",
+   "measure": "homegrown defense",
+   "b": 0.2441,
+   "se": 0.0522,
+   "p": 0.0,
+   "n": 416,
+   "b_per_sd": 0.0308
+  },
+  {
+   "outcome": "net_epa",
+   "measure": "horse race: homegrown",
+   "b": 0.1662,
+   "se": 0.0888,
+   "p": 0.0614,
+   "n": 416,
+   "b_per_sd": NaN
+  },
+  {
+   "outcome": "net_epa",
+   "measure": "horse race: continuity",
+   "b": 0.3336,
+   "se": 0.0846,
+   "p": 0.0001,
+   "n": 416,
+   "b_per_sd": NaN
+  },
+  {
+   "outcome": "net_epa",
+   "measure": "subsample 2013-2019",
+   "b": 0.3246,
+   "se": 0.0797,
+   "p": 0.0,
+   "n": 224,
+   "b_per_sd": NaN
+  },
+  {
+   "outcome": "net_epa",
+   "measure": "subsample 2020-2025 (17-game era from 2021)",
+   "b": 0.464,
+   "se": 0.0825,
+   "p": 0.0,
+   "n": 192,
+   "b_per_sd": NaN
+  },
+  {
+   "outcome": "net_epa",
+   "measure": "subsample cap coverage >= 85%",
+   "b": 0.2506,
+   "se": 0.0765,
+   "p": 0.0011,
+   "n": 183,
+   "b_per_sd": NaN
+  },
+  {
+   "outcome": "net_epa",
+   "measure": "acquired-cap share, cap coverage >= 85%",
+   "b": -0.1584,
+   "se": 0.05,
+   "p": 0.0015,
+   "n": 183,
+   "b_per_sd": NaN
+  }
+ ],
+ "functional_form": {
+  "hg_share": {
+   "lin": {
+    "b": 0.4000916800918641,
+    "se": 0.057129509953821545,
+    "p": 2.501095026677912e-12,
+    "n": 416
+   },
+   "sq": {
+    "b": -0.7690380652784008,
+    "se": 0.28902956727315215,
+    "p": 0.007796470474261133,
+    "n": 416
+   },
+   "decile_net_epa": [
+    -0.0623,
+    -0.0555,
+    -0.0286,
+    -0.0155,
+    0.0247,
+    0.017,
+    0.0348,
+    0.0313,
+    0.0134,
+    0.0392
+   ]
+  },
+  "continuity": {
+   "lin": {
+    "b": 0.4381617770709545,
+    "se": 0.06061619512178784,
+    "p": 4.884995704558791e-13,
+    "n": 416
+   },
+   "sq": {
+    "b": -0.008428024391990474,
+    "se": 0.3692416466045555,
+    "p": 0.98178968504937,
+    "n": 416
+   },
+   "decile_net_epa": [
+    -0.1056,
+    -0.0523,
+    -0.0188,
+    -0.0095,
+    0.0071,
+    0.0127,
+    0.0128,
+    0.0406,
+    0.0506,
+    0.0612
+   ]
+  }
+ },
+ "typology_grid": {
+  "n_cells": 25,
+  "merc_lowest_win_cells": 14,
+  "rams_ss_share_range": [
+   0.1111111111111111,
+   0.4444444444444444
+  ],
+  "rams_2021_types": {
+   "Mercenary": 20,
+   "Stars-and-scrubs": 5
+  },
+  "focal_mercs_in_top5_mean": 3.92,
+  "focal_mercs_in_top5_min": 3
+ },
+ "champs_bands": {
+  "0.5-0.85": 10,
+  "0.4-0.9": 10,
+  "0.5-1.0": 10,
+  "0-0.5": 3,
+  "0.85-1.0": 0
+ },
+ "champs_pct": [
+  0.188,
+  0.219,
+  0.219,
+  0.531,
+  0.531,
+  0.625,
+  0.688,
+  0.719,
+  0.75,
+  0.75,
+  0.75,
+  0.75,
+  0.812
+ ],
+ "champs_band_binom_p": 0.002514553840097167,
+ "oster": {
+  "net_epa": {
+   "b_short": 0.31873292697288585,
+   "r2_short": 0.088585116787123,
+   "b_long": 0.29425440164840533,
+   "r2_long": 0.1835837802879483,
+   "rmax": 0.23865891437433281,
+   "delta_for_beta0": 20.734790394596025,
+   "beta_delta1": 0.2800630644779512
+  },
+  "win_pct": {
+   "b_short": 0.42917220813002305,
+   "r2_short": 0.05325658929581767,
+   "b_long": 0.3452116399759612,
+   "r2_long": 0.15087224076731143,
+   "rmax": 0.19613391299750485,
+   "delta_for_beta0": 8.867453586528168,
+   "beta_delta1": 0.30628145143790986
+  }
+ },
+ "dynamics_fixed": {
+  "hg_share->win_pct_lead": {
+   "b": 0.14961570660999976,
+   "se": 0.1004038850696822,
+   "p": 0.13618779173125137,
+   "n": 384
+  },
+  "hg_share->net_epa_lead": {
+   "b": 0.16693534535199464,
+   "se": 0.06090949824589834,
+   "p": 0.006130636319900468,
+   "n": 384
+  },
+  "continuity->win_pct_lead": {
+   "b": 0.084687385481869,
+   "se": 0.09469227942545594,
+   "p": 0.37113835331322664,
+   "n": 384
+  },
+  "continuity->net_epa_lead": {
+   "b": 0.10177730580554094,
+   "se": 0.057435315539176045,
+   "p": 0.07638898900026166,
+   "n": 384
+  },
+  "cap_acq_share->win_pct_lead": {
+   "b": -0.15934759369323043,
+   "se": 0.07864240074992804,
+   "p": 0.042741218085114455,
+   "n": 384
+  },
+  "cap_acq_share->net_epa_lead": {
+   "b": -0.11117824379961742,
+   "se": 0.04670050394568896,
+   "p": 0.01728143123085934,
+   "n": 384
+  },
+  "age_w->win_pct_lead": {
+   "b": -0.02783100863286117,
+   "se": 0.015062953603185004,
+   "p": 0.06465354498636668,
+   "n": 384
+  },
+  "age_w->net_epa_lead": {
+   "b": -0.023020662838671477,
+   "se": 0.009075003492970347,
+   "p": 0.011189922901330317,
+   "n": 384
+  },
+  "picks_next_change": {
+   "b": -0.015077151159861696,
+   "se": 0.01500922185750364,
+   "p": 0.3151252237204615,
+   "n": 384
+  },
+  "age_terciles_dnet": {
+   "young": 0.028658615247474976,
+   "mid": -0.005227646087791837,
+   "old": -0.02343588927468244
+  },
+  "typology_win_next": {
+   "Churn (bought base, cheap stars)": 0.446,
+   "Grown (homegrown base, homegrown stars)": 0.551,
+   "Mercenary (bought base, bought stars)": 0.454,
+   "Stars-and-scrubs (homegrown base, bought stars)": 0.525
+  },
+  "n": 384
+ }
+}
